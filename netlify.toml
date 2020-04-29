@@ -10,3 +10,4 @@ from = "/redirect"
 to = "/en"
 status = 302
 force = true
+conditions = {Language = ["!ja"], Country = ["!jp"]}
