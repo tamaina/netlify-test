@@ -3,11 +3,10 @@ from = "/redirect"
 to = "/ja"
 status = 302
 force = true
-conditions = {Language = ["ja"]}
+conditions = {Language = ["ja"], Country = ["jp"]}
 
 [[redirects]]
 from = "/redirect"
 to = "/en"
 status = 302
 force = true
-conditions = {Language = ["en"]}
