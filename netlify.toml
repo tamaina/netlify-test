@@ -1,0 +1,12 @@
+[[redirects]]
+from = "/redirect"
+to = “/ja”
+status = 302
+force = true
+conditions = {Language = “ja”}
+
+[[redirects]]
+from = "/redirect"
+to = “/en”
+status = 302
+force = true
