@@ -1,2 +1,2 @@
-/redirect	/ja	Language=ja	302
-/redirect	/en	Language=en	302
+/redirect	/ja	302	Language=ja
+/redirect	/en	302	Language=en
