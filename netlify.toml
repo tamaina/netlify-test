@@ -3,7 +3,7 @@ from = "/redirect"
 to = "/ja"
 status = 302
 force = true
-conditions = {Language = "ja"}
+conditions = {Language = ["ja"]}
 
 [[redirects]]
 from = "/redirect"
