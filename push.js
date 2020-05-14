@@ -3,7 +3,7 @@ const push = {
 }
 
 function display(text) {
-  document.getElementById('display').insertAdjacentHTML('<p>${text}</p>')
+  document.getElementById('display').insertAdjacentHTML('beforeend', '<p>${text}</p>')
 }
 
 document.getElementById('register').addEventListener('click', () => {
