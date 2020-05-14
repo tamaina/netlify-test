@@ -15,7 +15,7 @@ document.getElementById('not1').addEventListener('click', () => {
     new Notification('Notification 1', {
         tag: 'not1',
         body: 'body',
-        badge: 'mi.svg',
+        // badge: 'mi.svg',
         icon: 'https://join.misskey.page/files/images/imports/2019/03/forTwitter_ico_1231.webp?v=1.0.0',
         image: 'haranomachi.jpg',
         silent: false
