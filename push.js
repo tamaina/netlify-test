@@ -11,6 +11,7 @@ document.getElementById('register').addEventListener('click', () => {
 })
 
 document.getElementById('not1').addEventListener('click', () => {
+    try {
     const n = new Notification('Notification 1', {
         // tag: 'not1',
         body: 'body am',
@@ -19,6 +20,7 @@ document.getElementById('not1').addEventListener('click', () => {
         // image: 'https://determined-turing-7306bf.netlify.app/haranomachi.webp',
         silent: false
     })
+    } catch (e) { display(e) }
     n.onclick = () => display('click')
     n.onclose = () => display('close')
     n.onerror = (e) => display(e)
