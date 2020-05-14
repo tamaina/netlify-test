@@ -17,7 +17,7 @@ document.getElementById('not1').addEventListener('click', () => {
         body: 'body',
         // badge: 'mi.svg',
         icon: 'https://join.misskey.page/files/images/imports/2019/03/forTwitter_ico_1231.webp?v=1.0.0',
-        image: 'haranomachi.webp',
+        image: 'https://determined-turing-7306bf.netlify.app/haranomachi.webp',
         silent: false
     })
     } catch (e) {
